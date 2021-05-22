@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3046961159908625360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2294270548920056309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fbe81cb1a8c80ab27dd6dcdd63a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Buffalo Skull
+  description: Damage up
+  add:
+    alive: 0
+    speed: 0
+    acceleration: 0
+    damage: 3
+    children: 0
+    depth: 0
+    homingSpeed: 0
+    explosionRadius: 0
+    explosionDamage: 0
+    bounce: 0
+    critChance: 0
+    critDamage: 0
+  mul:
+    alive: 1
+    speed: 1
+    acceleration: 1
+    damage: 1.5
+    children: 1
+    depth: 1
+    homingSpeed: 1
+    explosionRadius: 1
+    explosionDamage: 1
+    bounce: 1
+    critChance: 1
+    critDamage: 1
+  set:
+    alive: -999
+    speed: -999
+    acceleration: -999
+    damage: -999
+    children: -999
+    depth: -999
+    homingSpeed: -999
+    explosionRadius: -999
+    explosionDamage: -999
+    bounce: 0
+    critChance: -999
+    critDamage: -999
+  newProjectilePrefab: {fileID: 0}
+--- !u!1001 &992591675814909279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1301687860355673258, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_Name
+      value: Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580640990131126754, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1716324838537754315, guid: 3e75bb2d8de6c714b9d6bbf6dba5e0ff,
+        type: 3}
+    - target: {fileID: 3580640990131126754, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5218185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.181169
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.963241
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b25d0a7375ccc28418ad856f132e8487, type: 3}
+--- !u!1 &2294270548920056309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1301687860355673258, guid: b25d0a7375ccc28418ad856f132e8487,
+    type: 3}
+  m_PrefabInstance: {fileID: 992591675814909279}
+  m_PrefabAsset: {fileID: 0}

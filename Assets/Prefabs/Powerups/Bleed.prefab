@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5210105891668922702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4842079480809433807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4d4b49765f20b4c9ca507bb44fe8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Blood tears
+  description: Make them cry
+  stacks: 1
+  chancesPerStack: 0.4
+  ApplyOnTarget: {fileID: 6853553872189841597, guid: 902658a2b491e31478f89ba23a75e21a,
+    type: 3}
+  ApplyOnCaster: {fileID: 0}
+  growth: 0
+--- !u!1001 &5846239202603861605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1301687860355673258, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_Name
+      value: Bleed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580640990131126754, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2414092057758759726, guid: 3e75bb2d8de6c714b9d6bbf6dba5e0ff,
+        type: 3}
+    - target: {fileID: 3580640990131126754, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5218185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.181169
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.963241
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b25d0a7375ccc28418ad856f132e8487, type: 3}
+--- !u!1 &4842079480809433807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1301687860355673258, guid: b25d0a7375ccc28418ad856f132e8487,
+    type: 3}
+  m_PrefabInstance: {fileID: 5846239202603861605}
+  m_PrefabAsset: {fileID: 0}

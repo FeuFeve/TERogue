@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8614642475032942162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5528664593436757737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80112b681b3677d4991f6b9e2e95a96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Odin's Blessing
+  description: You hit faster
+  stacks: 1
+  chancesPerStack: 1
+  ApplyOnTarget: {fileID: 0}
+  ApplyOnCaster: {fileID: 2976749002103368091, guid: 0a78404e96e5fce40b0add1eaeb3a67c,
+    type: 3}
+  growth: 0
+--- !u!114 &-7445857109071936471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5528664593436757737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b16cd705730a825ab104c5ab228ab92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: 
+  description: 
+  add:
+    maxHeat: 0
+    heatPerBullet: 0
+    heatLossPerSecond: 0
+    overheatCooldownTime: 0
+    bullets: 0
+    burst: 0
+    spread: 0
+    burstDelay: 0
+    shotDelay: 0
+    cantOverheat: 0
+    constantSpread: 0
+    semiAutomatic: 0
+  mul:
+    maxHeat: 1
+    heatPerBullet: 1
+    heatLossPerSecond: 1
+    overheatCooldownTime: 1
+    bullets: 1
+    burst: 1
+    spread: 1
+    burstDelay: 1
+    shotDelay: 0.9
+    cantOverheat: 1
+    constantSpread: 1
+    semiAutomatic: 1
+  set:
+    maxHeat: -999
+    heatPerBullet: -999
+    heatLossPerSecond: -999
+    overheatCooldownTime: -999
+    bullets: -999
+    burst: -999
+    spread: -999
+    burstDelay: -999
+    shotDelay: -999
+    cantOverheat: 0
+    constantSpread: 0
+    semiAutomatic: 0
+--- !u!114 &-1226058783701596143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5528664593436757737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fbe81cb1a8c80ab27dd6dcdd63a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: 
+  description: 
+  add:
+    alive: 0
+    speed: 0
+    acceleration: 0
+    damage: 0
+    children: 0
+    depth: 0
+    homingSpeed: 0
+    explosionRadius: 0
+    explosionDamage: 0
+    bounce: 0
+    critChance: 0.1
+    critDamage: 0
+  mul:
+    alive: 1
+    speed: 1
+    acceleration: 1
+    damage: 1
+    children: 1
+    depth: 1
+    homingSpeed: 1
+    explosionRadius: 1
+    explosionDamage: 1
+    bounce: 1
+    critChance: 1
+    critDamage: 1
+  set:
+    alive: -999
+    speed: -999
+    acceleration: -999
+    damage: -999
+    children: -999
+    depth: -999
+    homingSpeed: -999
+    explosionRadius: -999
+    explosionDamage: -999
+    bounce: 0
+    critChance: -999
+    critDamage: -999
+  newProjectilePrefab: {fileID: 0}
+--- !u!1001 &6821059052276277827
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1301687860355673258, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_Name
+      value: Attack Speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580640990131126754, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2268656316125624011, guid: 3e75bb2d8de6c714b9d6bbf6dba5e0ff,
+        type: 3}
+    - target: {fileID: 3580640990131126754, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.982113
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2545893
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.963241
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971528719283256818, guid: b25d0a7375ccc28418ad856f132e8487,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b25d0a7375ccc28418ad856f132e8487, type: 3}
+--- !u!1 &5528664593436757737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1301687860355673258, guid: b25d0a7375ccc28418ad856f132e8487,
+    type: 3}
+  m_PrefabInstance: {fileID: 6821059052276277827}
+  m_PrefabAsset: {fileID: 0}

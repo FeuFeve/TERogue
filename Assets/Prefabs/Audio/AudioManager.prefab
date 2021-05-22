@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5289803453865971627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5289803453865971625}
+  - component: {fileID: 5289803453865971624}
+  - component: {fileID: 5736505013537696421}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5289803453865971625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5289803453865971627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5289803453865971624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5289803453865971627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4c9d7b4148df545a3670af7458ea04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicTheme: 1
+  musicFadeTime: 3
+  globalVolume: 0.2
+  mainMenuMusics:
+  - clip: {fileID: 8300000, guid: 3c4eac4c2497c954bacecc1475465f9f, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 1
+  - clip: {fileID: 8300000, guid: b8bb11c7bedba9a448138c70bd58c279, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 2
+  normalRoomMusics:
+  - clip: {fileID: 8300000, guid: b7b7ed80f9a6d734e9be915f1cfb09b4, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 3
+  - clip: {fileID: 8300000, guid: 770359ba662accc4a8990cdbc3b3fa67, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 3
+  - clip: {fileID: 8300000, guid: feb7cf0ef478ab9459e8c083c17585c7, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 3
+  merchantRoomMusics:
+  - clip: {fileID: 8300000, guid: a5e39df2788ade8479acd8a29ccb3edf, type: 3}
+    volume: 0.4
+    loop: 1
+    source: {fileID: 0}
+    type: 4
+  bossRoomMusics:
+  - clip: {fileID: 8300000, guid: 66f88cdd764fa194cb068ecb4a341bed, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 5
+  - clip: {fileID: 8300000, guid: 1eeb49d7479cf2940865df16e975e288, type: 3}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+    type: 5
+  menuSFX:
+  - clip: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+    type: 1
+  - clip: {fileID: 8300000, guid: b99da9a57308d4ba1bee1cf1d9038376, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+    type: 2
+  - clip: {fileID: 8300000, guid: 67b6df6f5699f2e46be02ab1b224893d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+    type: 3
+  playerSFX:
+  - clip: {fileID: 8300000, guid: 15254c59609f14c4cbc883b8fb2d0f25, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+    type: 10
+  - clip: {fileID: 8300000, guid: c9d1b7d026da57a40b8a4c40076f4b6c, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+    type: 11
+  - clip: {fileID: 8300000, guid: e686c5b0cf336c64e89a42a7b3052c18, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+    type: 11
+  - clip: {fileID: 8300000, guid: 64e226d3934490347abbca49d0592bb4, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+    type: 11
+  - clip: {fileID: 8300000, guid: 320e6dabe554c3c4e8d780f67bf8e8bf, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 12
+  - clip: {fileID: 8300000, guid: 6f6a6593b9916e44d81abeb3f465671f, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+    type: 13
+  - clip: {fileID: 8300000, guid: a74b8865ce8ea3a43a2c508f45966261, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+    type: 13
+  - clip: {fileID: 8300000, guid: 14c7f8458e75e0e459fe3a195a9bb9d2, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+    type: 13
+  - clip: {fileID: 8300000, guid: 96e9a9db637f81249ad4ab63ff463537, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+    type: 13
+  - clip: {fileID: 8300000, guid: e8dd1199fdd42d74baa9ed16d789cd35, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+    type: 13
+  mobSFX:
+  - clip: {fileID: 8300000, guid: 3dec259a1842130499cd2468f3b1e26e, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+    type: 21
+  - clip: {fileID: 8300000, guid: 2a8021817fd0d7f4e8b541f4e42623d8, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+    type: 21
+  - clip: {fileID: 8300000, guid: 3b153f91409173442b38b760c02c4352, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 20
+  - clip: {fileID: 8300000, guid: 5d4e29a3cc3635e40a0708a4963a3739, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 20
+  - clip: {fileID: 8300000, guid: 59ba292141b98dd43ad8224aab369c26, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 20
+  bossSFX:
+  - clip: {fileID: 8300000, guid: 6ede5bff6ef01564dbf8f6fb8802c48a, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 30
+  weaponAndPowerUpSFX:
+  - clip: {fileID: 8300000, guid: 8002968e090e8a94eb78f67f2b2cdf2b, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 40
+  - clip: {fileID: 8300000, guid: b7dfeb63efe5538438fd5723aa7ab304, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+    type: 41
+  ambianceSFX:
+  - clip: {fileID: 8300000, guid: dd660ce9ed648944a87508d459b9e8b8, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+    type: 42
+  - clip: {fileID: 8300000, guid: a5f37da3917019b4f8fde70d7ba2a586, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+    type: 42
+  - clip: {fileID: 8300000, guid: b2c5b8ead84e75841a9acfdb0564b06e, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+    type: 42
+  - clip: {fileID: 8300000, guid: bf93edbe53080a74a8d00e7048c7e303, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+    type: 43
+  - clip: {fileID: 8300000, guid: 1d98be093d52a8c4e9ecbe6688530f75, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+    type: 43
+--- !u!81 &5736505013537696421
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5289803453865971627}
+  m_Enabled: 1
