@@ -166,12 +166,14 @@ MonoBehaviour:
   rb: {fileID: 8527862386257998899}
   floatingDamagesIndicator: {fileID: 7352062885381406114, guid: ab8de5c6797967e4fa25430fd5a81591,
     type: 3}
+  MoveSpeedMult: 1
   cd:
-    maxHP: 300
+    maxHP: 350
     maxShield: 0
     shieldPerRoom: 5
     speed: 5
     evasion: 0
+  dead: 0
   vision_collider: {fileID: 6908157169692971976}
   collision_collider: {fileID: 3255758518825837961}
   weapon: {fileID: 6589593806571911113}

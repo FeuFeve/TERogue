@@ -6,7 +6,11 @@ public class Gold : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         foreach(GameObject p in Player.playerList) {
-            GetComponent<Rigidbody2D>().AddForce(p.transform.position - transform.position);
+            Vector3 direction = (p.transform.position - transform.position).normalized;
+            float distance = (p.transform.position - transform.position).magnitude;
+            float force = (1f / distance) * 30;
+            force = Mathf.Min(200, force);
+            GetComponent<Rigidbody2D>().AddForce(direction * force);    
         }
     }
 

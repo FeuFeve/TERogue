@@ -234,12 +234,14 @@ MonoBehaviour:
   rb: {fileID: 5302521561372968308}
   floatingDamagesIndicator: {fileID: 7352062885381406114, guid: ab8de5c6797967e4fa25430fd5a81591,
     type: 3}
+  MoveSpeedMult: 1
   cd:
-    maxHP: 300
+    maxHP: 350
     maxShield: 0
     shieldPerRoom: 0
     speed: 5
     evasion: 0
+  dead: 0
   vision_collider: {fileID: 7655657672571164296}
   collision_collider: {fileID: 3747753911183298385}
   weapon: {fileID: 2994533449556704835}
@@ -500,15 +502,15 @@ PrefabInstance:
     - {fileID: 992119585799390254, guid: 814c1820920dd3844bce05f894439a16, type: 3}
     - {fileID: 1078180772274870698, guid: 814c1820920dd3844bce05f894439a16, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 814c1820920dd3844bce05f894439a16, type: 3}
---- !u!1 &4044814677758315026 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2863092654546785133, guid: 814c1820920dd3844bce05f894439a16,
-    type: 3}
-  m_PrefabInstance: {fileID: 2277042528259185023}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &963635717241693421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1352816606292049298, guid: 814c1820920dd3844bce05f894439a16,
+    type: 3}
+  m_PrefabInstance: {fileID: 2277042528259185023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4044814677758315026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2863092654546785133, guid: 814c1820920dd3844bce05f894439a16,
     type: 3}
   m_PrefabInstance: {fileID: 2277042528259185023}
   m_PrefabAsset: {fileID: 0}

@@ -190,6 +190,8 @@ public class Character : Powerupable {
         Destroy(gameObject);
     }
 
+    
+
     private void CheckForHpChanges() {
         float time = Time.time;
 

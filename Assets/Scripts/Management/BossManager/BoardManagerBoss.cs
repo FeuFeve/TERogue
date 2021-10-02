@@ -524,6 +524,12 @@ public class BoardManagerBoss : MonoBehaviour
             Vector2 pos = pathManager.getSpawnPos(new Vector2((topRightPosX - bottomLeftPosX) / 2, (topRightPosY - bottomLeftPosY) / 2));
             Instantiate(reward, pos, Quaternion.identity);
             rewarded = true;
+            while (Player.deadPlayerList.Count > 0) {
+                GameObject p = Player.deadPlayerList[0];
+                p.gameObject.SetActive(true);
+                p.GetComponent<Player>().Rez();
+                print("REZ!");
+            }
         }
         
     }

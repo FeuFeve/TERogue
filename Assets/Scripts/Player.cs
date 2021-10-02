@@ -14,6 +14,7 @@ public class Player : Character {
     public string FireRight;
 
     public static List<GameObject> playerList = new List<GameObject>();
+    public static List<GameObject> deadPlayerList = new List<GameObject>();
 
     public int ID;
 
@@ -52,6 +53,8 @@ public class Player : Character {
     public override void Start() {
         base.Start();
         
+        gold = 75;
+
         sprite = transform.Find("Skin").GetComponent<SpriteRenderer>();
         baseSpriteColor = sprite.color;
 
@@ -119,6 +122,7 @@ public class Player : Character {
 
     public override void Die() {
         playerList.Remove(gameObject);
+        deadPlayerList.Add(gameObject);
 
         if (playerList.Count == 0) { // All players are dead
             FindObjectOfType<AudioManager>().Play(SFX.GameOver);
@@ -132,6 +136,17 @@ public class Player : Character {
 
         gameObject.SetActive(false);
         //Destroy(gameObject); // TODO: don't destroy, only deactivate (easier to revive the player)
+    }
+
+    public virtual void Rez () {
+        print("EXEC!");
+        
+        gameObject.SetActive(true);
+
+        Player.playerList.Add(gameObject);
+        Player.deadPlayerList.Remove(gameObject);
+    
+        Heal((data as CharacterData).maxHP, HpChangesType.normalHeal);
     }
 
     public static void DontDestroyChildOnLoad(GameObject child) {

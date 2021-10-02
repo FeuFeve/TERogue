@@ -168,11 +168,12 @@ MonoBehaviour:
     type: 3}
   MoveSpeedMult: 1
   cd:
-    maxHP: 400
+    maxHP: 300
     maxShield: 0
     shieldPerRoom: 5
     speed: 5
     evasion: 0
+  dead: 0
   vision_collider: {fileID: 1393422602909326115}
   collision_collider: {fileID: 2279454465950912665}
   weapon: {fileID: 3912540828415090916}
