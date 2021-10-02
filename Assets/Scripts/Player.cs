@@ -121,8 +121,8 @@ public class Player : Character {
     }
 
     public override void Die() {
-        playerList.Remove(gameObject);
         deadPlayerList.Add(gameObject);
+        playerList.Remove(gameObject);
 
         if (playerList.Count == 0) { // All players are dead
             FindObjectOfType<AudioManager>().Play(SFX.GameOver);
@@ -138,7 +138,7 @@ public class Player : Character {
         //Destroy(gameObject); // TODO: don't destroy, only deactivate (easier to revive the player)
     }
 
-    public virtual void Rez () {
+    public virtual void Rez() {
         print("EXEC!");
         
         gameObject.SetActive(true);

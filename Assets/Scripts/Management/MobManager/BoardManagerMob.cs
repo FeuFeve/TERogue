@@ -160,7 +160,7 @@ public class BoardManagerMob : MonoBehaviour
         {
             CreateEnnemies();
         }
-        if(GameData.level!= 9 && GameData.probMerchantActual != 1) GameData.probMerchantActual--;
+        if(GameData.level!= 9 && GameData.probMerchantActual > 1) GameData.probMerchantActual--;
     }
 
 

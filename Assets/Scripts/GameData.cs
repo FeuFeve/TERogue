@@ -10,7 +10,7 @@ public class GameData : MonoBehaviour {
     public static int position = 0;
     public static string predRoomType = "EntryRoom";
     public static string roomType = "EntryRoom";
-    public static int probMerchantMax = 15;
+    public static int probMerchantMax = 10;
     public static int probMerchantActual = probMerchantMax;
     
     public static List<GameObject> enemies = new List<GameObject>();
